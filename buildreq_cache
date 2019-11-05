@@ -1,0 +1,5 @@
+1.46
+perl(LWP::UserAgent)
+perl(XML::Parser)
+perl(XML::Parser::PerlSAX)
+perl(XML::RegExp)
