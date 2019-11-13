@@ -4,13 +4,14 @@
 #
 Name     : perl-XML-DOM
 Version  : 1.46
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Summary  : unknown
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
 Requires: perl-XML-DOM-perl = %{version}-%{release}
+Requires: perl(XML::RegExp)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(LWP::UserAgent)
 BuildRequires : perl(XML::Parser)
