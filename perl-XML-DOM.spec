@@ -4,7 +4,7 @@
 #
 Name     : perl-XML-DOM
 Version  : 1.46
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Summary  : unknown
@@ -112,31 +112,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM.pm
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/AttDef.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/AttlistDecl.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Attr.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/CDATASection.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/CharacterData.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Comment.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/DOMException.pm
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/DOMImplementation.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Document.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/DocumentFragment.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/DocumentType.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Element.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/ElementDecl.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Entity.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/EntityReference.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/NamedNodeMap.pm
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/NamedNodeMap.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Node.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/NodeList.pm
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/NodeList.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Notation.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Parser.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/PerlSAX.pm
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/ProcessingInstruction.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/Text.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/DOM/XMLDecl.pod
-/usr/lib/perl5/vendor_perl/5.34.0/XML/Handler/BuildDOM.pm
+/usr/lib/perl5/*
