@@ -4,7 +4,7 @@
 #
 Name     : perl-XML-DOM
 Version  : 1.46
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
 Summary  : unknown
